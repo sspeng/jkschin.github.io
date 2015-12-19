@@ -1,1 +1,17 @@
-Hello World
+---
+title: jkschin.com
+---
+<!DOCTYPE html>
+<html lang="en">
+{% include header.html %}
+<body>
+<h1>Well, I guess all the posts will be here?</h1>
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
+</body>
+</html>
