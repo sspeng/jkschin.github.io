@@ -1,5 +1,6 @@
 ---
 title: My First Post
+layout: post
 ---
 19th December 2015. I finally started my website that I wanted to start all along. I've been having this idea for the past three years. It took me three whole years to actually getting down to doing it. I faced many issues along the way, and I am going to talk about it next.
 
