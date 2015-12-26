@@ -7,7 +7,7 @@ body {
 img {
 	max-width:100%;
 	max-height:100%;
-	padding: 70px;
+	padding: 30px;
 }
 
 pre {
@@ -23,7 +23,51 @@ pre {
 
 .footer {
 	clear: both;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
  	height: 3em;	    
  	background-color: #f5f5f5;
  	margin-top: -3em;
+}
+
+.image-wrapper {
+    text-align: center;
+    img {
+        width: 50%;
+        height: auto;
+    	padding: 10px 50px 0px 50px;
+    }
+    .image-caption {
+        color: black;
+        font-style: italic;
+        padding: 0px 40px 10px 40px;
+    }
+}
+
+.blocks{
+    width: 100%;
+    height: 150px;
+    border: 1px;
+    overflow: hidden;
+    margin-bottom: 20px
+}
+
+.block-content{
+    overflow: hidden;
+    padding-left: 10px;
+    h4{
+        margin-top: 0px;
+    }
+}
+
+.block-images{
+    width: 150px;
+    height: 150px;
+    margin: 0px;
+    float: left;
+    img{
+        padding: 0px;
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
 }

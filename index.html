@@ -2,10 +2,24 @@
 title: Home
 layout: default
 ---
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
+{% for post in site.posts %}
+	{% include firstimage.script %}
+	{% if presence %}
+		<div class="blocks">
+			<div class="block-images">
+				<a href="{{ post.url }}"><img {{ imageMarkup }}></a>
+			</div>
+			<div class="block-content">
+				<a href="{{ post.url }}"><h4>{{ post.title }}</h4></a>
+				<p>{{ post.content | strip_html | truncatewords: 50 }}</p>
+			</div>
+		</div>
+	{% else %}
+		<div class="blocks" style="height:auto;">
+			<div class="block-content" style="padding-left:0px;">
+				<a href="{{ post.url }}"><h4>{{ post.title }}</h4></a>
+				<p>{{ post.content | strip_html | truncatewords: 50 }}</p>
+			</div>
+		</div>
+	{% endif %}
+{% endfor %}
