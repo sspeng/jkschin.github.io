@@ -1,0 +1,30 @@
+---
+title: Electric Vehicle
+layout: default
+---
+{% for post in site.posts %}
+	{% if post.tag == 'gokart' %}
+		{% include firstimage.script %}
+		{% if presence %}
+			<div class="blocks">
+				<div class="block-images">
+					<div class="block-dummy"></div>
+					<div class="block-element">
+						<a href="{{ post.url }}"><img {{ imageMarkup }}></a>
+					</div>
+				</div>
+				<div class="block-content">
+					<a href="{{ post.url }}"><h4>{{ post.title }}</h4></a>
+					<p>{{ post.content | strip_html | truncatewords: 50 }}</p>
+				</div>
+			</div>
+		{% else %}
+			<div class="blocks" style="height:auto;">
+				<div class="block-content" style="padding-left:0px;">
+					<a href="{{ post.url }}"><h4>{{ post.title }}</h4></a>
+					<p>{{ post.content | strip_html | truncatewords: 50 }}</p>
+				</div>
+			</div>
+		{% endif %}
+	{% endif %}
+{% endfor %}

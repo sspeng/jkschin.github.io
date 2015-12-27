@@ -1,9 +1,0 @@
-{% assign content = post.content | split: "<p>" %}
-{% assign excerpt = "" %}
-{% for text in content %}
-	{% capture excerpt %}{{ excerpt }} {{ text }}{% endcapture %}
-	{% if excerpt.size > 300 %}
-		{{ excerpt }}
-		{% break %} 
-	{% endif %}
-{% endfor %}

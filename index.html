@@ -7,7 +7,10 @@ layout: default
 	{% if presence %}
 		<div class="blocks">
 			<div class="block-images">
-				<a href="{{ post.url }}"><img {{ imageMarkup }}></a>
+				<div class="block-dummy"></div>
+				<div class="block-element">
+					<a href="{{ post.url }}"><img {{ imageMarkup }}></a>
+				</div>
 			</div>
 			<div class="block-content">
 				<a href="{{ post.url }}"><h4>{{ post.title }}</h4></a>
