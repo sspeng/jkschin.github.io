@@ -1,5 +1,5 @@
 ---
-title: Project Euler Update
+title: Project Euler Update. Question 7 and 8.
 layout: post
 tag: euler
 local: 2015-12-27-project-euler-update
