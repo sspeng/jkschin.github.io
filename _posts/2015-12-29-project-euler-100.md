@@ -1,9 +1,11 @@
 ---
-title: Project Euler Update. Question 100.
+title: Project Euler 100
 layout: post
-tag: euler
+tag: euler, euler100
 local: 2015-12-29-project-euler-100
 ---
+
+<a href="https://projecteuler.net/problem=100">Question 100</a>
 
 I decided to skip the first few questions as it's just tedious implementation. I jumped to 100 and thought it was interesting, so why not?
 

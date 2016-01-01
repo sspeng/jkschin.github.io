@@ -1,9 +1,12 @@
 ---
-title: Project Euler Update. Question 7 and 8.
+title: Project Euler 7, 8
 layout: post
-tag: euler
+tag: euler, euler7, euler8
 local: 2015-12-27-project-euler-update
 ---
+
+<a href="https://projecteuler.net/problem=7">Question 7</a>
+<a href="https://projecteuler.net/problem=8">Question 8</a>
 
 Just finished question 7 and 8. Relatively easy questions that could be done very quickly in python. However, I decided to do these questions in C as I would like to become better at C.
 

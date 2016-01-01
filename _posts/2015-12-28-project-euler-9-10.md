@@ -1,9 +1,12 @@
 ---
-title: Project Euler Update. Question 9 and 10.
+title: Project Euler 9, 10
 layout: post
-tag: euler
+tag: euler, euler9, euler10
 local: 2015-12-28-project-euler-update
 ---
+
+<a href="https://projecteuler.net/problem=9">Question 9</a>
+<a href="https://projecteuler.net/problem=10">Question 10</a>
 
 9 was a relatively interesting question on pythagorean triplets. An example of a pythogorean triplet would be 3^2 + 4^2 = 5^2. There are actually many more.
 

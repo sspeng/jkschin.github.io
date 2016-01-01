@@ -1,2 +1,5 @@
 gems:
  - jekyll-coffeescript
+ - jekyll-paginate
+
+paginate: 5

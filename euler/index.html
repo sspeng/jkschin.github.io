@@ -6,16 +6,16 @@ layout: default
 <table class="problems_solved_table">
 	<tbody>
 		<tr>
-		<td class="problem_solved"><a href="https://projecteuler.net/problem=1">1</a></td>
-		<td class="problem_solved"><a href="https://projecteuler.net/problem=2">2</a></td>
-		<td class="problem_solved"><a href="https://projecteuler.net/problem=3">3</a></td>
-		<td class="problem_solved"><a href="https://projecteuler.net/problem=4">4</a></td>
-		<td class="problem_solved"><a href="https://projecteuler.net/problem=5">5</a></td>
-		<td class="problem_solved"><a href="https://projecteuler.net/problem=6">6</a></td>
-		<td class="problem_solved"><a href="https://projecteuler.net/problem=7">7</a></td>
-		<td class="problem_solved"><a href="https://projecteuler.net/problem=8">8</a></td>
-		<td class="problem_solved"><a href="https://projecteuler.net/problem=9">9</a></td>
-		<td class="problem_solved"><a href="https://projecteuler.net/problem=10">10</a></td>
+		<td class="problem_solved"><a href={% post_url 2016-01-01-project-euler-1-2-3-4-5-6 %}>1</a></td>
+		<td class="problem_solved"><a href={% post_url 2016-01-01-project-euler-1-2-3-4-5-6 %}>2</a></td>
+		<td class="problem_solved"><a href={% post_url 2016-01-01-project-euler-1-2-3-4-5-6 %}>3</a></td>
+		<td class="problem_solved"><a href={% post_url 2016-01-01-project-euler-1-2-3-4-5-6 %}>4</a></td>
+		<td class="problem_solved"><a href={% post_url 2016-01-01-project-euler-1-2-3-4-5-6 %}>5</a></td>
+		<td class="problem_solved"><a href={% post_url 2016-01-01-project-euler-1-2-3-4-5-6 %}>6</a></td>
+		<td class="problem_solved"><a href={% post_url 2015-12-27-project-euler-7-8 %}>7</a></td>
+		<td class="problem_solved"><a href={% post_url 2015-12-27-project-euler-7-8 %}>8</a></td>
+		<td class="problem_solved"><a href={% post_url 2015-12-28-project-euler-9-10 %}>9</a></td>
+		<td class="problem_solved"><a href={% post_url 2015-12-28-project-euler-9-10 %}>10</a></td>
 		<td class="problem_unsolved"><a href="https://projecteuler.net/problem=11">11</a></td>
 		<td class="problem_unsolved"><a href="https://projecteuler.net/problem=12">12</a></td>
 		<td class="problem_unsolved"><a href="https://projecteuler.net/problem=13">13</a></td>
@@ -113,7 +113,7 @@ layout: default
 		<td class="problem_unsolved"><a href="https://projecteuler.net/problem=97">97</a></td>
 		<td class="problem_unsolved"><a href="https://projecteuler.net/problem=98">98</a></td>
 		<td class="problem_unsolved"><a href="https://projecteuler.net/problem=99">99</a></td>
-		<td class="problem_solved"><a href="https://projecteuler.net/problem=100">100</a></td>
+		<td class="problem_solved"><a href={% post_url 2015-12-29-project-euler-100 %}>100</a></td>
 		</tr>
 		<tr>
 		<td class="problem_unsolved"><a href="https://projecteuler.net/problem=101">101</a></td>
@@ -390,7 +390,7 @@ layout: default
 		<td class="problem_unsolved"><a href="https://projecteuler.net/problem=348">348</a></td>
 		<td class="problem_unsolved"><a href="https://projecteuler.net/problem=349">349</a></td>
 		<td class="problem_unsolved"><a href="https://projecteuler.net/problem=350">350</a></td>
-		<td class="problem_solved"><a href="https://projecteuler.net/problem=351">351</a></td>
+		<td class="problem_solved"><a href={% post_url 2016-01-01-project-euler-351 %}>351</a></td>
 		<td class="problem_unsolved"><a href="https://projecteuler.net/problem=352">352</a></td>
 		<td class="problem_unsolved"><a href="https://projecteuler.net/problem=353">353</a></td>
 		<td class="problem_unsolved"><a href="https://projecteuler.net/problem=354">354</a></td>
@@ -599,3 +599,32 @@ layout: default
 		<td class="problem_unsolved"><a href="https://projecteuler.net/problem=539">539</a></td>
 	</tbody>
 </table>
+<h1>Latest Problems Solved</h1>
+<div>
+{% for post in site.posts %}
+	{% if post.tag contains 'euler' %}
+		{% include firstimage.script %}
+		{% if presence %}
+			<div class="blocks">
+				<div class="block-images">
+					<div class="block-dummy"></div>
+					<div class="block-element">
+						<a href="{{ post.url }}"><img {{ imageMarkup }}></a>
+					</div>
+				</div>
+				<div class="block-content">
+					<a href="{{ post.url }}"><h4>{{ post.title }}</h4></a>
+					<p>{{ post.content | strip_html | truncatewords: 50 }}</p>
+				</div>
+			</div>
+		{% else %}
+			<div class="blocks" style="height:auto;">
+				<div class="block-content" style="padding-left:0px;">
+					<a href="{{ post.url }}"><h4>{{ post.title }}</h4></a>
+					<p>{{ post.content | strip_html | truncatewords: 50 }}</p>
+				</div>
+			</div>
+		{% endif %}
+	{% endif %}
+{% endfor %}
+</div>
