@@ -1,15 +1,14 @@
 ---
-title: Batt Mobile in Action
+title: Videos: Batt Mobile in Action
 layout: post
 tag: gokart
 local: 2013-08-11-batt-mobile-in-action
 ---
 
-<iframe src="//www.youtube.com/watch?v=sh5Ua9hP4hs" width="560" height="315">TEST</iframe>
+<div class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/sh5Ua9hP4hs" frameborder="0" allowfullscreen></iframe></div>
 
-{% raw %}
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="560" height="315" src="https://www.youtube.com/watch?v=sh5Ua9hP4hs"></iframe>
-<img src=http://vignette4.wikia.nocookie.net/logopedia/images/5/5c/Google_logo.png/revision/latest?cb=20100520131746>
-{% endraw %}
+<div class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/NsIxPs-LQBE" frameborder="0" allowfullscreen></iframe></div>
 
+<div class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/W-LUoFx6bP4" frameborder="0" allowfullscreen></iframe></div>
 
+<div class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/pKGRWXsxB70" frameborder="0" allowfullscreen></iframe></div>
