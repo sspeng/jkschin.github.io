@@ -7,6 +7,8 @@ local: 2016-01-01-project-euler-351
 
 <a href="https://projecteuler.net/problem=351">Question 351</a>
 
+<p><a href="https://en.wikipedia.org/wiki/Euler%27s_totient_function">Euler's Totient Function</a></p>
+
 This is a back post as well. I finished 351 before starting this website. 351 has a difficulty of 25%, so I guess I will talk about it.
 
 The first part of the problem is to figure out what mathematical equation actually models such a situation. I won't talk about what equation it is!

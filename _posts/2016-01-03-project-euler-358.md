@@ -5,6 +5,9 @@ tag: euler, euler358
 local: 2016-01-03-project-euler-358
 ---
 <a href="https://projecteuler.net/problem=358">Question 358</a>
+<p><a href="https://en.wikipedia.org/wiki/Cyclic_number">Cyclic Number</a></p>
+<p><a href="https://en.wikipedia.org/wiki/Full_reptend_prime">Full Reptend Prime</a></p>
+
 <h2>Part 1</h2>
 This question seems relatively simple. It's simply finding a <a href="https://en.wikipedia.org/wiki/Full_reptend_prime">full reptend prime</a>. You can check out the definition in the link. To determine if a number is a reptend prime, it has to be a primitive root modulo n, which in this case, n = 10 since we are working in Base 10. We are also given the first 11 digits, and we can work out some bounds on the prime range that we are searching.
 
