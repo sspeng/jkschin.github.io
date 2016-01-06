@@ -33,7 +33,7 @@ I managed to code the modules successfully. I searched within the bounds that I 
 I found the answer! Turns out that there's a special property that the generator multiplied by the cyclic number itself will get you a number that is all 9s. Using this, I could narrow down the primes easily. I tested them for primitive root modulo n, and then summed up all the digits in the cyclic number. Problem solved!
 
 <div class="image-wrapper">
-<img src="/images/{{page.local}}/1.jpg">
+<img src="/images/{{page.local}}/2.jpg">
 <p class="image-caption">My Scrap Paper. The answer is blacked out :P</p>
 </div>
 
