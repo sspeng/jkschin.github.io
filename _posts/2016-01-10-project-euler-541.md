@@ -11,7 +11,7 @@ local: 2016-01-10-project-euler-541
 <p><a href="https://en.wikipedia.org/wiki/Stirling_numbers_of_the_first_kind">Stirling Numbers</a></p>
 <p><a href="https://en.wikipedia.org/wiki/Wolstenholme%27s_theorem">Wolstenholme's Theorem</a></p>
 
-
+<h2>Part 1</h2>
 I started this problem exactly 7 days ago, on 3rd January 2016. It seemed like a really challenging problem, as they rate at which it was being solved was not rising fast. Take Problem 542 for example, at the time of writing, 35 people have solved it, but 541 has only 49.
 
 I learnt a lot about harmonic numbers while doing 541. I found out about harmonic primes, anharmonic primes, Wolstenholme's Theorem, Stirling Numbers, etc. I honed my "reading math heavy papers" skill. All in all, it was great!
@@ -27,3 +27,11 @@ P.S. I discussed the problem with peers as well.
 <img src="/images/{{page.local}}/1.jpg">
 <p class="image-caption">The computation of H is off because it is not in modulo p^2</p>
 </div>
+
+<h2>Part 2</h2>
+Updated on 13th January 2016.
+
+I am elated that I solved the problem! Within Top 100 was a huge bonus too. We knew we had a problem with the way the new H's were being calculated. My peer was sharp enough to notice it and told me about it. We discussed it and concluded that this method is indeed feasible. I implemented it, with memoization, and the answer came within 12 minutes. He implemented his own version too. We solved it! That's not too bad, considering a brute force would take exponential time and a ton of memory.
+
+There are many ways to skin a cat. The mathematicians in the forums posted about complex mathematical formulas that I would have never known to apply to this problem. As someone from a CS field, I guess I have to use algorithms to make it feasible. Really pleased that this is done! I'm thinking the 10-substrings problem looks interesting. I might try that next. Or, I might try solving sequentially from the start again. Until I am up for another challenge, of course.
+
