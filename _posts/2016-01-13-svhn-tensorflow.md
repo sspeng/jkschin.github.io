@@ -4,7 +4,7 @@ layout: post
 tag: tensorflow
 local: 2016-01-13-svhn-tensorflow
 ---
-
+<h2>Part 1</h2>
 In my previous post, Wally TensorFlow, I adapted the code from the MNIST convolutional version. I decided to try out the CIFAR10 one now. This time, I ran it on an openly available data set, which is the <a href="http://ufldl.stanford.edu/housenumbers/">Street View House Numbers</a>.
 
 The intuition for me was to format the data in the exact same format of CIFAR10 images. That just involved a Python script, so it wasn't too difficult. However, it was really hard to visualize how the first image looks like with just numpy arrays. I had to write the images out and do some form of litmus test. While doing this, I realized that it is very important to perhaps give some test samples. For example, in the download site, they could perhaps put sample images based on the indexes. That way, I can generate that picture form my newly arranged format and ensure that it matches. Doing this a few more times would probably give me more confidence that I converted the data set properly.
@@ -28,7 +28,7 @@ I was puzzled. Why would anyone label a 0 as a 10? I decided to try it for the C
  5 5 6 2 3 4 2 3 4 4 1 6 3 0 5 6 4]
 </p>
 
-Look. Not a single 10. There was the problem. How could I have overlooked it? I went to check SVHN's website once again, and there it is, the first line in their Overview. What's the moral of the story? Read everything before downloading blindly. Troubleshooting this wasted a good day. 
+Look. Not a single 10. There was the problem. How could I have overlooked it? I went to check SVHN's website once again, and there it is, the first line in their Overview. What's the moral of the story? Read everything before downloading blindly. Troubleshooting this wasted a good day. I uploaded my question and answer on <a href="http://stackoverflow.com/questions/34759227/tensorflow-cifar10-example/34763642#34763642">stackoverflow</a>.
 
 I can successfully run it now, but I can't just take the CIFAR10 code as it is. The images in SVHN are already cropped. Almost to the extent whereby further cropping would make them unrecognizable. As such, distorted_inputs has to be edited.
 
@@ -54,5 +54,44 @@ I faced quite a few problems, and I would like to solve these problems. Not just
 These are just ideas, that are not in the API yet (I think). I could be very well wrong, but I shall find out along the way.
 
 P.S. I learnt today that there's a <a href="https://google.github.io/styleguide/pyguide.html">Python style guide</a> by Google. I shall follow this from now on.
+
+<h2>Part 2</h2>
+Updated on: 14th January 2016
+
+Checked it out just now. 56000 runs. That took quite awhile. Time to test it! I stopped the training and saved a backup of the checkpoint files. I did this because accidentally running "train" again would cause the entire directory to be overwritten. I do not want that to happen. I modified the code in
+
+<p style="background-color: #e5e5e5">svhn_eval.py (equivalent is cifar10.py)</p>
+
+and fired up a terminal. I hit run. 
+
+***Grins and hopes for the best!***
+
+NOOO. IT FAILED. There's an error.
+
+I posted it on stackoverflow. Check it out below. At time of writing, there is an upvote each on Question and Answer. Yay! Glad I helped someone.
+
+<a href="http://stackoverflow.com/questions/34782201/tensorflow-cifar10-cifar10-eval-py-throws-error-compute-status-invalid-argumen/34785645#34785645">http://stackoverflow.com/questions/34782201/tensorflow-cifar10-cifar10-eval-py-throws-error-compute-status-invalid-argumen/34785645#34785645</a>
+
+Yes it works now! Time to run the test set. After about 1 minute...
+
+<p style="background-color: #e5e5e5">/home/samuelchin/svhn/tmp/svhn_train/model.ckpt-56000<br>
+2016-01-14 14:35:17.792675: precision @ 1 = 0.933
+</p>
+
+WOW! 93.3%. That's really good. I think the distortions really helped to train a very good network. I ran the test set again, just for confirmation. This time, I got different results, but somewhat similar to 0.933. I wondered why this is the case though. Since the net is fixed, and it is deterministic, shouldn't I get the same answer? Yet again another question to answer in future.
+
+I decided to run the trained net on some data that I have. I took some photographs and cropped whatever numbers that were present. There were a total of 29 32x32 images. I labelled the images too. I combined them into a test file, and ran it through the net. 100% accuracy. Really? That's amazing. Some of the images were tilted and slightly affine transformed.
+
+To further prove that the results are correct. I decided to add some error into the test set. I added 1, 2, 3, 5, 10, 15, 20, 25, 28, 29 errors, onto distinct test sets. They gave the respective results! 28/29, 27/29, etc... I guess I can be 99% sure that the net is evaluating the numbers correctly. To be absolutely sure though, I should feed an entire batch, then output the corresponding labels. I was trying to figure out a way to display the images and the labels respectively in TensorBoard. This would be a really really awesome tool. I hope there's such a functionality! In any case, if there isn't, I need to try and print out the values onto the console.
+
+I guess I have successfully used the SVHN data set on the CIFAR10 model. It worked out pretty well! As I mentioned above, perhaps I should implement a Spatial Transformer Module. I will definitely try this soon.
+
+The next thing that I would have to do too, is to use CIFAR10 as a model and code the entire structure by myself from scratch. As with all of my posts, I would like to conclude with some stuff that I believe would be useful. Stuff that I would work on.
+
+<ol>
+	<li>Converting all images in a directory into a bin file for testing. I had to write my own function to do that. But then again, there's TFRecord for us to use. CIFAR10 only uses a bin file because...? I'm not sure why too, maybe TFRecord is pretty new.</li>
+	<li>Find a way to print out the probabilities of the predicted label. Or even find a way to label the test images and display it on TensorBoard.</li>
+	<li>Build my own model from scratch for a Kaggle problem!</li>
+</ol>
 
 
