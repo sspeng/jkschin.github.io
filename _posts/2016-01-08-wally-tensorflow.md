@@ -65,6 +65,16 @@ I was shocked. Something is fishy. It's too good to be true. I did the same thin
 
 I had only 15 images (the cluttered one where you have to find Wally). I created this data set by first randomly extracting 30000 50x50px background images from the 15 images. 2000 50x50px background images from each image. I was sort of guaranteed unique background images. I then randomly selected 15000 background images that will be overlaid with a face. The faces are selected from the pool of 15 faces. Using this method, I artificially generated 15000 "face images" for training. I had to do this because of the severe lack of positive class images (speaking of which, I should try training a net where I have 300,000 negative classes and 100 positive classes. I wonder how that would work out.). From here, I split the data evenly into the respective training, validation, and test set.
 
+<div class="image-wrapper">
+<img src="/images/{{page.local}}/face1.jpg">
+<p class="image-caption">Sample 1</p>
+</div>
+
+<div class="image-wrapper">
+<img src="/images/{{page.local}}/face2.jpg">
+<p class="image-caption">Sample 2</p>
+</div>
+
 And therein lies the problem. The neural net that I have trained has "seen" all 15 faces during training! A neural net, is somewhat a superb interpolater (correct me if I am wrong). It is thus not surprising that it can identify the faces in the test set! What I should have done, is to split the images into 10 and 5 first. That way, the neural net has only "seen" 10 images, and has to extrapolate what it has learnt in the 10 images and apply it to the other 5. I will make this edit and compare the results again. 
 
 While doing this, I am reminded of the fact that a neural network is mathematically a gradient descent. Therefore, the learning rate is actually extremely important, as we do not want to end up in a local minima. I'm sure there are many good papers out there that talk about the selection and tuning of learning rates, and perhaps by extension, hyperparameters. There's so much more to learn!

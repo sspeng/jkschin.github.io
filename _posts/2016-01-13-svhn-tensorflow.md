@@ -48,7 +48,7 @@ I faced quite a few problems, and I would like to solve these problems. Not just
 <ol>
 	<li>Could we make a "development mode" for easier debugging? I know that there's tf.InteractiveSession, but is it possible to have a development mode that allows you to print from anywhere in the code?</li>
 	<li>TensorFlow needs more examples. For example, <a href="https://www.tensorflow.org/versions/master/api_docs/python/sparse_ops.html#sparse_to_dense">sparse_to_dense</a> has no example inputs and outputs. I had to write my own script to generate some inputs and outputs to give an idea of what's going on. It is true that the explanations are sufficient, but examples are the best way to understand something.</li>
-	<li>tf.image.random_rotate would be a great addition. Incorporating a Spatial Transformer Networks module would be great too.</li>
+	<li>tf.image.random_rotate would be a great addition. (<a href="https://github.com/tensorflow/tensorflow/issues/781">Posted an issue on GitHub</a>. Another guy had the idea too! In any case, I shall try my best to make a contribution.) Incorporating a Spatial Transformer Networks module would be great too.</li>
 </ol>
 
 These are just ideas, that are not in the API yet (I think). I could be very well wrong, but I shall find out along the way.
