@@ -13,6 +13,15 @@ I decided to create this post because I thought it would be extremely inconvenie
 ###<a href="https://projecteuler.net/problem=18">Problem 18</a>
 **Solved on 24th January 2016.** As the question suggests, you can't brute force it. Or rather, you can, but Problem 67 will not allow you to. An approach to consider would be: How can I reduce the problem? For example, try the case of a triangle with 4 rows. Using the answer from 4 rows, how can I get the answer for 5 rows?
 
+###<a href="https://projecteuler.net/problem=20">Problem 20</a>
+A simple python script.
+
+###<a href="https://projecteuler.net/problem=24">Problem 24</a>
+Pen and paper will do the trick! Counting from 0th number might be a good idea ;)
+
+###<a href="https://projecteuler.net/problem=25">Problem 25</a>
+A simple python script.
+
 ###<a href="https://projecteuler.net/problem=67">Problem 67</a>
 **Solved on 24th January 2016.** Identical to problem 18. Only difference is that it has a lot more rows. Therefore, you definitely can't brute force this. 
 
