@@ -1,0 +1,12 @@
+{% assign images = post.content | split: "<img" %}
+{% if images.size != 1%}
+	{% assign presence = true %}
+	{% for image in images %}
+		{% if image contains 'src=' %}
+			{% assign imageMarkup = image | split:">" | first %}
+			{% break %}
+		{% endif %}
+	{% endfor %}
+{% else %}
+	{% assign presence = false %}
+{% endif %}
