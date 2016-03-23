@@ -37,6 +37,26 @@ I decided to create this post because I thought it would be extremely inconvenie
 ###<a href="https://projecteuler.net/problem=26">Problem 26</a>
 **Solved on 25th January 2016.** Haha this was funny. I saw something similar before. In fact, it is <a href="https://projecteuler.net/problem=358">Problem 358</a>! Took me a few seconds to solve it. 
 
+###<a href="https://projecteuler.net/problem=27">Problem 27</a>
+**Solved on 21st March 2016.** This got me stumped for awhile. Seems complicated at first but brute force does the trick. I think brute force is the only method though.
+
+###<a href="https://projecteuler.net/problem=28">Problem 28</a>
+**Solved on 21st March 2016.** You can do it by hand with a simple calculator! Well okay it's tedious with a calculator so just write some simple Python code.
+
+###<a href="https://projecteuler.net/problem=29">Problem 29</a>
+**Solved on 10th March 2016.** An elegant solution to this is tedious. A simple brute force does it in under 0.5 seconds.
+
+###<a href="https://projecteuler.net/problem=30">Problem 30</a>
+**Solved on 22nd March 2016.** Find the upper bound of your search and you're done! After all, there's a divergence after a certain number.
+
+###<a href="https://projecteuler.net/problem=31">Problem 31</a>
+**Solved on 23rd March 2016.** Did a depth first search initially, but found out from forums that dynamic programming is a better solution. I ended up implementing a dynamic programming version. I should learn how to decompose problems and identify potential DP problems.
+
 ###<a href="https://projecteuler.net/problem=67">Problem 67</a>
 **Solved on 24th January 2016.** Identical to problem 18. Only difference is that it has a lot more rows. Therefore, you definitely can't brute force this. 
 
+###<a href="https://projecteuler.net/problem=98">Problem 98</a>
+**Solved on 20th February 2016.** Seems intimidating at first, since it's rated 35% difficulty. It wasn't that bad after all There are very few anagrams in the first place. Once you find the anagrams, it's a matter of permuting potential substitutions.
+
+###<a href="https://projecteuler.net/problem=99">Problem 99</a>
+**Solved on 14th February 2016.** Logarithms are the key!
