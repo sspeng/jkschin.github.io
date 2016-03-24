@@ -52,6 +52,9 @@ I decided to create this post because I thought it would be extremely inconvenie
 ###<a href="https://projecteuler.net/problem=31">Problem 31</a>
 **Solved on 23rd March 2016.** Did a depth first search initially, but found out from forums that dynamic programming is a better solution. I ended up implementing a dynamic programming version. I should learn how to decompose problems and identify potential DP problems.
 
+###<a href="https://projecteuler.net/problem=32">Problem 32</a>
+**Solved on 24th March 2016.** I need to get into the habit of having the entire program in my head before going out to code. I should try and get the answer in 1 attempt. It's not very good if I hack out something and then submit the answer on Project Euler, only to find out it is wrong. I then have to go back to thinking about what went wrong. For this example, I missed out an additional condition, which caused the answer to be wrong. Such training is extremely applicable for real world situations as more often than not, we don't have the "answer". Nonetheless, this is a pretty simple problem!
+
 ###<a href="https://projecteuler.net/problem=67">Problem 67</a>
 **Solved on 24th January 2016.** Identical to problem 18. Only difference is that it has a lot more rows. Therefore, you definitely can't brute force this. 
 
