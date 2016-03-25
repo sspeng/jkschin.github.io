@@ -55,6 +55,20 @@ I decided to create this post because I thought it would be extremely inconvenie
 ###<a href="https://projecteuler.net/problem=32">Problem 32</a>
 **Solved on 24th March 2016.** I need to get into the habit of having the entire program in my head before going out to code. I should try and get the answer in 1 attempt. It's not very good if I hack out something and then submit the answer on Project Euler, only to find out it is wrong. I then have to go back to thinking about what went wrong. For this example, I missed out an additional condition, which caused the answer to be wrong. Such training is extremely applicable for real world situations as more often than not, we don't have the "answer". Nonetheless, this is a pretty simple problem!
 
+###<a href="https://projecteuler.net/problem=33">Problem 33</a>
+**Solved on 25th March 2016.** Nothing too difficult. 
+
+###<a href="https://projecteuler.net/problem=34">Problem 34</a>
+**Solved on 25th March 2016.** I started timing myself. I took 21 minutes 0 seconds to solve this. I really need to work on speed! The critical path was finding the upper bound. I made a mistake in my factorial function too. So that wasted some time as well.
+
+###<a href="https://projecteuler.net/problem=35">Problem 35</a>
+**Solved on 25th March 2016.** 8 minutes 42 seconds. I wrote some helper functions before, so this was relatively simple. It was just a matter of hacking some logic together. It's not exactly efficient algorithmically, as I don't remove primes after finding a set of circular primes. I don't exactly save a lot if I do this either. 
+
+Let's think about it. If there's a 100-digit prime that is circular, the worst case is that I check this 99 extra times, and in each check, it's essentially an O(1) look up done 100 times. For this prime, I will then check 10000 times in my implementation. If I do some optimization, I will only have to check 100 times. It's not worth the effort as the critical path here is really generating the primes. Look ups are almost free. Therefore, why optimize unnecessarily? Let's save it for the tougher problems ;)
+
+###<a href="https://projecteuler.net/problem=36">Problem 36</a>
+**Solved on 25th March 2016.** 3 minutes 51 seconds. A simple check_palindrome function was written. I shall add it to my repository of functions that are useful. I should perhaps write a README for all the functions.
+
 ###<a href="https://projecteuler.net/problem=67">Problem 67</a>
 **Solved on 24th January 2016.** Identical to problem 18. Only difference is that it has a lot more rows. Therefore, you definitely can't brute force this. 
 
