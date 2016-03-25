@@ -69,6 +69,18 @@ Let's think about it. If there's a 100-digit prime that is circular, the worst c
 ###<a href="https://projecteuler.net/problem=36">Problem 36</a>
 **Solved on 25th March 2016.** 3 minutes 51 seconds. A simple check_palindrome function was written. I shall add it to my repository of functions that are useful. I should perhaps write a README for all the functions.
 
+###<a href="https://projecteuler.net/problem=37">Problem 37</a>
+**Solved on 25th March 2016.** Trivial. I didn't really time it cause I didn't think I would take more than 5 minutes. Made some careless mistakes initially, but I spotted them quickly.
+
+###<a href="https://projecteuler.net/problem=38">Problem 38</a>
+**Solved on 25th March 2016.** Trivial. I didn't understand the question properly. Ended up submitting the wrong value for this. It should have been the "pandigital number", rather than the number that results in the pandigital number. I submitted the latter initially. 
+
+###<a href="https://projecteuler.net/problem=39">Problem 39</a>
+**Solved on 25th March 2016.** Ah. Slightly challenging problem. I didn't time this because I thought it was simple math. Turns out it was indeed simple math with lots of catch cases. I guess I learnt how to properly write a function with lots of IF statements. I thought I would do it under 5 minutes but I think I ended up taking 20 minutes for this. 
+
+###<a href="https://projecteuler.net/problem=40">Problem 40</a>
+**Solved on 25th March 2016.** Trivial. Once again, I read the question wrongly. I ended up adding instead of multiplying. After realising that error, I changed it to *= and it's done!
+
 ###<a href="https://projecteuler.net/problem=67">Problem 67</a>
 **Solved on 24th January 2016.** Identical to problem 18. Only difference is that it has a lot more rows. Therefore, you definitely can't brute force this. 
 
