@@ -81,6 +81,17 @@ Let's think about it. If there's a 100-digit prime that is circular, the worst c
 ###<a href="https://projecteuler.net/problem=40">Problem 40</a>
 **Solved on 25th March 2016.** Trivial. Once again, I read the question wrongly. I ended up adding instead of multiplying. After realising that error, I changed it to *= and it's done!
 
+###<a href="https://projecteuler.net/problem=41">Problem 41</a>
+**Solved on 26th March 2016.** I took approximately 10 minutes. Another pandigital problem. It's simply just coming up with a function to check if a number is pandigital from 1 to n, and then checking if it's a prime.
+
+###<a href="https://projecteuler.net/problem=42">Problem 42</a>
+**Solved on 26th March 2016.** I took approximately 10 minutes. It wasn't that hard.
+
+###<a href="https://projecteuler.net/problem=43">Problem 43</a>
+**Solved on 26th March 2016.** I took approximately 10 minutes. And this is my 50th question solved! I didn't know solving 50 questions puts you into top 6.25% of Project Euler members. I think many people are inactive. The function to check divisibility is simple. I initially iterated all pandigital numbers from 1,000,000,000 to 9,999,999,999. I already had a pandigital number check function, so I simply used it again. It was extremely inefficient.
+
+Why check a number when I can just permute from 0123456789? I did that. It solved in 3.3 seconds. Compared to something along the lines of more than a minute.
+
 ###<a href="https://projecteuler.net/problem=67">Problem 67</a>
 **Solved on 24th January 2016.** Identical to problem 18. Only difference is that it has a lot more rows. Therefore, you definitely can't brute force this. 
 
