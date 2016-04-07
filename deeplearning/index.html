@@ -7,7 +7,7 @@ layout: default
 <p>Google released TensorFlow in November 2015 and I started using TensorFlow in the last week of December 2015. That got me really excited as I just started working on some Computer Vision problems. The first problem I did was about <a href="https://en.wikipedia.org/wiki/Where%27s_Wally%3F">Where's Wally?</a>, and it definitely won't be the last project that I will be doing on Deep Learning. Check out the list of <a href="\tensorflow\stackoverflow\">questions and answers</a> that I have posted on StackOverFlow!</p>
 
 {% for post in site.posts %}
-	{% if post.tag == 'tensorflow' %}
+	{% if post.tag == 'tensorflow' || post.tag == 'deeplearning' %}
 		{% include firstimage.script %}
 		{% if presence %}
 			<div class="blocks">
