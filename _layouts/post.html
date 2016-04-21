@@ -3,4 +3,4 @@ layout: default
 ---
 <i>Posted: {{ page.date | date: "%-d %B %Y" }}
 </i>
-{{ content }}
+{{ post.content | markdownify }}
