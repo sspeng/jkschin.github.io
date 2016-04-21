@@ -92,6 +92,27 @@ Let's think about it. If there's a 100-digit prime that is circular, the worst c
 
 Why check a number when I can just permute from 0123456789? I did that. It solved in 3.3 seconds. Compared to something along the lines of more than a minute.
 
+###<a href="https://projecteuler.net/problem=44">Problem 44</a>
+**Solved on 8th April 2016.** I forgot to time this one.
+
+###<a href="https://projecteuler.net/problem=45">Problem 45</a>
+**Solved on 6th April 2016.** I forgot to time this one.
+
+###<a href="https://projecteuler.net/problem=46">Problem 46</a>
+**Solved on 6th April 2016.** 11 minutes.
+
+###<a href="https://projecteuler.net/problem=47">Problem 47</a>
+**Solved on 6th April 2016.** 4:30.
+
+###<a href="https://projecteuler.net/problem=48">Problem 48</a>
+**Solved on 6th April 2016.** 1:35.
+
+###<a href="https://projecteuler.net/problem=49">Problem 49</a>
+**Solved on 6th April 2016.** 26:54. I took quite awhile for this, so it's blog-worthy. I got stuck at this initially because of the incrementer. You first have to find all the permutations that are primes, and then find a valid value for incrementer. I thought it was as simple as finding all permutations but I misunderstood. 
+
+###<a href="https://projecteuler.net/problem=50">Problem 50</a>
+**Solved on 8th April 2016.** I forgot to time this one. WOOHOO. **50 questions SOLVED!**
+
 ###<a href="https://projecteuler.net/problem=67">Problem 67</a>
 **Solved on 24th January 2016.** Identical to problem 18. Only difference is that it has a lot more rows. Therefore, you definitely can't brute force this. 
 
