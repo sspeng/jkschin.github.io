@@ -25,6 +25,7 @@ layout: default
 			</div>
 			<div class="block-content">
 				<a href="{{ post.url }}"><h4>{{ post.title }}</h4></a>
+				<i>Posted: {{ post.date | date: "%-d %B %Y" }}</i>
 				<p>{{ post.content | strip_html | truncatewords: 50 }}</p>
 			</div>
 		</div>
@@ -32,6 +33,7 @@ layout: default
 		<div class="blocks" style="height:auto;">
 			<div class="block-content" style="padding-left:0px;">
 				<a href="{{ post.url }}"><h4>{{ post.title }}</h4></a>
+				<i>Posted: {{ post.date | date: "%-d %B %Y" }}</i>
 				<p>{{ post.content | strip_html | truncatewords: 50 }}</p>
 			</div>
 		</div>
