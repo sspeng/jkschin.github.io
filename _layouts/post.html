@@ -1,6 +1,18 @@
----
-layout: default
----
-<i>Posted: {{ page.date | date: "%-d %B %Y" }}
-</i>
-{{ post.content | markdownify }}
+<html lang="en">
+{% include header.html %}
+<body>
+	{% include navbar.html %}
+	<div class="wrapper">
+		<div class="row">
+	  		<div class="col-md-3"></div>
+	  		<div class="col-md-6">
+	  			<h1>{{ page.title }}</h1>
+	  			<i>Posted: {{ page.date | date: "%-d %B %Y" }}</i>
+	  			{{ content }}
+	  		</div>
+	  		<div class="col-md-3"></div>
+		</div>
+	</div>
+	{% include footer.html %}
+</body>
+</html>
