@@ -5,7 +5,7 @@ tag: deeplearning
 local: 2016-06-04-learning-from-rotation
 ---
 
-Part 1: 6th June 2016
+Part 1: 4th June 2016
 
 For almost the longest time ever, I had this hypothesis:
 
