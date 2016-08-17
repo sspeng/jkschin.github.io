@@ -1,7 +1,7 @@
 ---
 title: Reconstruction
 layout: post
-tag: ef deeplearning
+tags: ef deeplearning
 local: 2016-08-15-reconstruction
 ---
 
