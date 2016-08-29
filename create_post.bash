@@ -6,7 +6,7 @@ if [ ! -f _posts/$1.md ]; then
 	echo "---" >> _posts/$1.md
 	echo "title: " >> _posts/$1.md
 	echo "layout: post" >> _posts/$1.md
-	echo "tag: " >> _posts/$1.md
+	echo "tags: " >> _posts/$1.md
 	echo "local: $1" >> _posts/$1.md
 	echo "---" >> _posts/$1.md
 else
