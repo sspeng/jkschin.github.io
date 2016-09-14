@@ -113,6 +113,9 @@ Why check a number when I can just permute from 0123456789? I did that. It solve
 ###<a href="https://projecteuler.net/problem=50">Problem 50</a>
 **Solved on 8th April 2016.** I forgot to time this one. WOOHOO. **50 questions SOLVED!**
 
+###<a href="https://projecteuler.net/problem=51">Problem 51</a>
+**Solved on 15th September 2016.** Oh my. What a long hiatus. The last one I solved was in April 2016. I took an hour for this one. And it wasn't entirely right. But then again, this was a 15% problem and not a simple 5% one. Nonetheless, I should have solved it faster though. Time to brush up my skills. An Euler a day keeps the doctor away!
+
 ###<a href="https://projecteuler.net/problem=67">Problem 67</a>
 **Solved on 24th January 2016.** Identical to problem 18. Only difference is that it has a lot more rows. Therefore, you definitely can't brute force this. 
 
