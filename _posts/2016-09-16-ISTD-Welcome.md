@@ -15,19 +15,19 @@ I decided to interpret this word as a question:
 
 Well, there are many opportunities that are available. Let me just name a few alumni to give you an idea of the diverse fields that ISTD graduates are in:
 
-Aditya, co-founder of Codomo, a company that teaches kids design thinking through engineering and programming.
-Kevin, co-founder of Techki, a software company focusing on chatbot and AI apps.
-Edward, Graduate Consultant at IBM.
-Kenneth and Ching Yi, Management Associate at Singtel.
-Joshua, Management Associate at Citibank.
-Gautam, Management Consultant at Impakt Consulting.
-Delia, Game Designer at Koei Tecmo.
-Yong Cheng, Software Engineer at Skyscanner.
-Liza and Swayam, Software Engineer at Pivotal Labs.
-Avery and Perry, Research Engineer at CSIT, a government body.
-Benjamin and Natalie, PhD Students at SUTD.
-Wei Liang, Web Developer at Tinkerbox Studios.
-Clarence, Air Traffic Controller at Changi Airport Group.
+- Aditya, co-founder of Codomo, a company that teaches kids design thinking through engineering and programming.
+- Kevin, co-founder of Techki, a software company focusing on chatbot and AI apps.
+- Edward, Graduate Consultant at IBM.
+- Kenneth and Ching Yi, Management Associate at Singtel.
+- Joshua, Management Associate at Citibank.
+- Gautam, Management Consultant at Impakt Consulting.
+- Delia, Game Designer at Koei Tecmo.
+- Yong Cheng, Software Engineer at Skyscanner.
+- Liza and Swayam, Software Engineer at Pivotal Labs.
+- Avery and Perry, Research Engineer at CSIT, a government body.
+- Benjamin and Natalie, PhD Students at SUTD.
+- Wei Liang, Web Developer at Tinkerbox Studios.
+- Clarence, Air Traffic Controller at Changi Airport Group.
 
 I could go on, but I’ll stop here. How did we all end up in such diverse fields? These opportunities did not look for us. We looked for these opportunities. A natural question to ask next would be:
 
@@ -47,9 +47,9 @@ If you do the 4 things I mentioned above, which is non-exhaustive for sure, then
 
 I am coming to the end of my speech soon, and in most speeches, people sometimes drift away. For the ISTD Sophomores, if you don’t remember anything I’ve said before this, remember these three things:
 
-Start a website with GitHub pages.
-Do side projects.
-Blog about everything you do.
+1. Start a website with GitHub pages.
+2. Do side projects.
+3. Blog about everything you do.
 
 If done properly, this portfolio will help you a lot when applying for any opportunity in future.
 
@@ -60,5 +60,3 @@ To conclude, there are many opportunities available for ISTD graduates. Do not w
 His procedure was simple: on the final day of class he would bring in his bathroom scales and weigh the work of the “quantity” group: fifty pounds of pots rated an “A”, forty pounds a “B”, and so on. Those being graded on “quality”, however, needed to produce only one pot “albeit a perfect one” to get an “A”.
 
 Well, came grading time and a curious fact emerged: the works of highest quality were all produced by the group being graded for quantity. It seems that while the “quantity” group was busily churning out piles of work “and learning from their mistakes” the “quality” group had sat theorizing about perfection, and in the end had little more to show for their efforts than grandiose theories and a pile of dead clay.”
-
-
