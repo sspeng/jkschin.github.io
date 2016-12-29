@@ -11,8 +11,6 @@ Over the past 2 months, I've been really focused on customer development. I've f
 
 I have talked to a lot of people and each time, I compile reports to consolidate my thoughts. I now have 7 reports worth of information, coming up to about almost 50 pages. I try and write them extremely concisely. Try as I might, they are coherent intra-report, but not coherent inter-report. As such, I might actually miss out some information that I would have liked to find out but didn't. Or something I should have talked about but didn't. Hence the title of this post. There is a need to come up with a framework to scientifically analyse a potential idea. Or perhaps even a framework to guide conversations. I was combing through my reports and I see some overlapping themes. Here's a framework that I will continue developing over time.
 
-# Frameworks
-
 1. What's the problem? 
 
 	- This part is kind of open ended as all problems are different. It's about describing the problem thoroughly in this section. Each problem will be a different bullet point. Do note that for each bullet point, something in the "Technical Aspect" portion needs to solve it. 
