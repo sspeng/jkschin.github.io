@@ -1,0 +1,34 @@
+---
+title: Books
+layout: default
+---
+<p>I enjoy reading and I post about all the books I read on this page. I write a short review on each so it's easier for me to remember the content. For those that are really interesting, entire posts will be dedicated to them.</p>
+
+{% for post in site.posts %}
+	{% for tag in post.tags %}
+		{% if tag == 'books' %}
+			{% include firstimage.script %}
+			{% if presence %}
+				<div class="blocks">
+					<div class="block-images">
+						<div class="block-dummy"></div>
+						<div class="block-element">
+							<a href="{{ post.url }}"><img {{ imageMarkup }}></a>
+						</div>
+					</div>
+					<div class="block-content">
+						<a href="{{ post.url }}"><h4>{{ post.title }}</h4></a>
+						<p>{{ post.content | strip_html | truncatewords: 50 }}</p>
+					</div>
+				</div>
+			{% else %}
+				<div class="blocks" style="height:auto;">
+					<div class="block-content" style="padding-left:0px;">
+						<a href="{{ post.url }}"><h4>{{ post.title }}</h4></a>
+						<p>{{ post.content | strip_html | truncatewords: 50 }}</p>
+					</div>
+				</div>
+			{% endif %}
+		{% endif %}
+	{% endfor %}
+{% endfor %}
