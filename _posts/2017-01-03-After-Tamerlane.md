@@ -7,7 +7,7 @@ local: 2017-01-03-After-Tamerlane
 
 I normally write brief reviews about the books I read. This book is different. It's about history. The first few pages had so many striking statements that I feel compelled to record them down. I normally stick a post-it at an important section, and for this book, I felt that I was sticking a post-it on every paragraph.
 
-###Chapter 1 - Orientations
+### Chapter 1 - Orientations
 Truth be told, I have always been in awe at the "perceived-to-be-advanced" societies of Europe and North America. I say this with inverted commas because the first 15 pages of this book has made me rethink this entirely. I will let the quotes speak for themselves (short of just copy pasting the entire book here).
 
 - Far from bringing progress to stationary parts of the world, European interference had blocked the social and cultural advances there were already in train. (Darwin, 2007, p. 11)
