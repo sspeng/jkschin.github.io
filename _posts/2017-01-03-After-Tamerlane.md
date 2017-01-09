@@ -24,7 +24,7 @@ Within 4 pages, one can get the idea of how the history we have been reading is 
 
 I could really go on with the examples (speaking with an accent being one), but this would become far too verbose. It's only the first chapter and I am writing so much. I can't wait to find out about the history of other societies in the following chapters.
 
-The key question to ask while reading this book is what were the factors that enabled Europe to expand? Columbus first crossed the Atlantic in 1492 and Vasco da Gama arrived in India in 1948. However, it took 300 more years before real colonization happened. **The timing, form and direction of Europe's expansion need more explanation.** (Darwin, 2007, p. 17) Specifically:
+The key question to ask while reading this book is what were the factors that enabled Europe to expand? Columbus first crossed the Atlantic in 1492 and Vasco da Gama arrived in India in 1498. However, it took 300 more years before real colonization happened. **The timing, form and direction of Europe's expansion need more explanation.** (Darwin, 2007, p. 17) Specifically:
 
 - Why did the Ottoman Empire and Iran preserve their autonomy long after India, which was much further away?
 - Why was India subjected to colonial rule while China was able to keep its sovereign status, though much hedged about, and Japan had become a colonial power by 1914? **This point is really interesting because it might give some light on China's behaviour today.**
