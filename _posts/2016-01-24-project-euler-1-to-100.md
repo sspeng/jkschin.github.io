@@ -122,8 +122,20 @@ Why check a number when I can just permute from 0123456789? I did that. It solve
 #### <a href="https://projecteuler.net/problem=53">Problem 53</a>
 **Solved on 19th September 2016.** Simply iterating over all combinations. I wrote my own combinations function as it wasn't that hard. Definitely solved it suboptimally since there are some symmetries in combinations.
 
+#### <a href="https://projecteuler.net/problem=54">Problem 54</a>
+**Solved on 26th March 2017.** A ton of hardcoding. There were so many cases to
+code up. It was a pretty boring problem. The only hard part was to design a
+representation that expresses the various combinations you can get and to decide
+a draw. Took about half an hour. 
+
 #### <a href="https://projecteuler.net/problem=67">Problem 67</a>
 **Solved on 24th January 2016.** Identical to problem 18. Only difference is that it has a lot more rows. Therefore, you definitely can't brute force this. 
+
+#### <a href="https://projecteuler.net/problem=81">Problem 81</a>
+**Solved on 26th March 2017.** Wanted to solve a dynamic programming problem so
+I googled for project euler DPs. Came across this and it was pretty easy. Solved
+it in about 10 minutes. Was stuck on it for awhile because of a careless mistake
+in the initialization of the memoization table.
 
 #### <a href="https://projecteuler.net/problem=98">Problem 98</a>
 **Solved on 20th February 2016.** Seems intimidating at first, since it's rated 35% difficulty. It wasn't that bad after all There are very few anagrams in the first place. Once you find the anagrams, it's a matter of permuting potential substitutions.
