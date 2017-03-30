@@ -137,6 +137,15 @@ I googled for project euler DPs. Came across this and it was pretty easy. Solved
 it in about 10 minutes. Was stuck on it for awhile because of a careless mistake
 in the initialization of the memoization table.
 
+#### <a href="https://projecteuler.net/problem=82">Problem 82</a>
+**Solved on 27th March 2017.** An extension of problem 81. I did it using 2
+methods. The first one was using an 80x80x80 array to save all distances between
+columns from various starting locations. The second one was recursion, which
+somehow using up the entire Python recursion stack. I had to edit the last part
+to not make it overflow. The second method was more interesting because I learnt
+about the space saving trick we can use for this, which helps if your arrays are
+huge.
+
 #### <a href="https://projecteuler.net/problem=98">Problem 98</a>
 **Solved on 20th February 2016.** Seems intimidating at first, since it's rated 35% difficulty. It wasn't that bad after all There are very few anagrams in the first place. Once you find the anagrams, it's a matter of permuting potential substitutions.
 
