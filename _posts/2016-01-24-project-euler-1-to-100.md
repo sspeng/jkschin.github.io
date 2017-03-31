@@ -128,6 +128,13 @@ code up. It was a pretty boring problem. The only hard part was to design a
 representation that expresses the various combinations you can get and to decide
 a draw. Took about half an hour. 
 
+#### <a href="https://projecteuler.net/problem=55">Problem 55</a>
+**Solved on 31st March 2017.** A simple problem. I should work on reading the
+question more carefully and solving it the first time. I confused the definition
+of a Lychrel number initially and thus spent 3-4 times submitting my answer 
+before I got it right. Interesting concept I learnt today, never heard of a 
+Lychrel number before.
+
 #### <a href="https://projecteuler.net/problem=67">Problem 67</a>
 **Solved on 24th January 2016.** Identical to problem 18. Only difference is that it has a lot more rows. Therefore, you definitely can't brute force this. 
 
