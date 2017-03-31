@@ -135,6 +135,11 @@ of a Lychrel number initially and thus spent 3-4 times submitting my answer
 before I got it right. Interesting concept I learnt today, never heard of a 
 Lychrel number before.
 
+#### <a href="https://projecteuler.net/problem=56">Problem 56</a>
+**Solved on 31st March 2017.** Overthinked this problem. It was a simple
+n-squared complexity where n = 100, just that if one codes this in C++, one has
+to account for big num. I thought the search space was much bigger initially.
+
 #### <a href="https://projecteuler.net/problem=67">Problem 67</a>
 **Solved on 24th January 2016.** Identical to problem 18. Only difference is that it has a lot more rows. Therefore, you definitely can't brute force this. 
 
