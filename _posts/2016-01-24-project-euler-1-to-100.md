@@ -146,6 +146,14 @@ to not make it overflow. The second method was more interesting because I learnt
 about the space saving trick we can use for this, which helps if your arrays are
 huge.
 
+#### <a href="https://projecteuler.net/problem=83">Problem 83</a>
+**Solved on 31st March 2017.** An extension of problem 81. It was a relatively
+simple DP. It's quite similar to 82, in the sense that the frontier of
+comparison for 82 was 2 columns, but the frontier for comparison for 83 was a
+mirrored L. This concept can be expanded to N-dimensional DPs but it's going to
+be pretty challenging beyond 3 I think. Would be interesting to try such a
+problem in future.
+
 #### <a href="https://projecteuler.net/problem=98">Problem 98</a>
 **Solved on 20th February 2016.** Seems intimidating at first, since it's rated 35% difficulty. It wasn't that bad after all There are very few anagrams in the first place. Once you find the anagrams, it's a matter of permuting potential substitutions.
 
