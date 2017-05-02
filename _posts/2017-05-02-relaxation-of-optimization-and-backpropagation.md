@@ -199,8 +199,7 @@ this and study what filters this network actually learned. This breaks
 backpropagation fundamentals, but the authors seem to suggest it works (I haven't
 read it thoroughly).
 
-### On Large-Batch Training for Deep Learning: Generalization Gap and Sharp
-Minima
+### On Large-Batch Training for Deep Learning: Generalization Gap and Sharp Minima
 
 I can see why this is an ICLR 2017 Oral Paper. Deep Learning literature has
 generally used small batch sizes of 128, 256, 512, but never batch sizes like
