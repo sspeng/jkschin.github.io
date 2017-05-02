@@ -149,7 +149,7 @@ Absolutely asynchronous. The authors put it rightly in their paper:
 > problems, but in practice we found relaxing consistency requirements to be
 > remarkably effective.
 
-An interesting thing to note would be Figure 4, where the initialize Downpour
+An interesting thing to note would be Figure 4, where they initialize Downpour
 after 10 hours of simple SGD. I'm not exactly sure why you need the warm start.
 In fact, according to Keskar (ICLR 2017), it should be the other way round.
 Downpour before simple SGD. We will talk about that later on.
@@ -178,7 +178,7 @@ state-of-the-art models are now very similar to this.
 
 On one hand, Dean et al. showed that things still worked with stale gradients.
 Yet on the other hand, Zhang et al. showed that things worked even better when we
-weight down stale gradients. And if we weigh down stale gradients too much, it
+weigh down stale gradients. And if we weigh down stale gradients too much, it
 effectively becomes something like normal SGD, since these stale updates would
 generally be ignored. Where exactly do we draw the line? Intuitively, it seems
 like Zhang et al. has found a good starting point, since it's a balance of
@@ -186,7 +186,7 @@ totally stale updates VS no stale updates.
 
 ### Decoupled Neural Interfaces using Synthetic Gradients
 
-I refer you to DeepMind's post for this, as they explain it really well with
+I refer you to [DeepMind's post](https://deepmind.com/blog/decoupled-neural-networks-using-synthetic-gradients/) for this, as they explain it really well with
 animations and the like. Simply put, this paper decouples all the layers. When we
 do a forward propagation, we can immediately receive a gradient from a synthetic
 gradient module, and then do weight updates from there. In the truest sense, if
@@ -226,6 +226,7 @@ gradually as the iteration progresses (Byrd 2012, Friedlander 2012), might
 actually work. And in such situations, do we also anneal the learning rate? Or
 keep it constant?
 
+### Conclusion
 This past month was thoroughly enjoyable. I've previously been plying through
 computer vision papers and implementing papers, collecting and cleaning data and
 building models and attempting to sell some products. I've been introduced to an
