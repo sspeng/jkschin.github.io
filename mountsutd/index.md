@@ -39,8 +39,8 @@ to be the webmaster there, but we have since handed it over to the next
 generation of SUTD Mountaineers :)
 
 Update on 2nd May 2016. The juniors are really doing well! They've grown to
-quite a large size and have executed a trip to Vietnam and China since August
-2016. They have also secured funding for a training climb in Kazakhstan. Most
+quite a large size and have executed a trip to Vietnam and China since August 2016.  
+They have also secured funding for a training climb in Kazakhstan. Most
 recently, I heard that there's someone who wants to do a big climb. Perhaps the
 time is now ripe for big things to happen ;)
 
