@@ -6,7 +6,7 @@ local: 2017-05-28-telegram-lumberjack
 ---
 
 Telegram has lots of embedded games recently. My friends are going crazy over
-these Telegram games and are scoring ridiculous high scores. I particularly
+these Telegram games and are scoring ridiculously high scores. I particularly
 liked the Lumberjack game and Karate Kido. However, I was nowhere nearly as good
 as them. Becoming good requires lots of practice; time which I was not willing
 to spend. As a programmer, the natural thing to do is then to code something up!
@@ -22,8 +22,7 @@ Turns out that with some fine tuning, you can get some pretty ridiculous scores,
 as seen in the video below. I'm pretty sure I'm hitting the limit of the frame
 refresh rate already. 
 
-<div class="video"><iframe width="560" height="315" src="
-https://youtu.be/57EiLQV9W9M" frameborder="0" allowfullscreen></iframe></div>
+<div class="video"><iframe width="560" height="315" src="https://youtu.be/57EiLQV9W9M" frameborder="0" allowfullscreen></iframe></div>
 
 Looks like we won't be needing RL for this, but I'd really like to try one
 problem in future. I'll probably be using OpenAI gym for this. A real world
