@@ -22,8 +22,9 @@ Turns out that with some fine tuning, you can get some pretty ridiculous scores,
 as seen in the video below. I'm pretty sure I'm hitting the limit of the frame
 refresh rate already. 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/57EiLQV9W9M"
-frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" align="center"
+src="https://www.youtube.com/embed/57EiLQV9W9M" frameborder="0"
+allowfullscreen></iframe>
 
 Looks like we won't be needing RL for this, but I'd really like to try one
 problem in future. I'll probably be using OpenAI gym for this. A real world
