@@ -5,6 +5,13 @@ tags: deeplearning
 local: 2017-11-10-research-assistant
 ---
 
+**EDIT on 29th December 2017**. Deep Learning research is moving so quickly. The
+idea I had for the paper I was trying to write was [released by
+NVIDIA](http://research.nvidia.com/publication/2017-12_High-Resolution-Image-Synthesis)
+on December 4th 2017. They probably submitted it for CVPR 2018. Note that I'm
+not saying I could have achieved their results because I clearly could not in
+the 3 months! The paper's results are really stunning. 
+
 I've worked as an RA for the past 3 months. If I could only say one thing that
 I learnt, it would be that reproducibility in machine learning is really
 difficult and the devil lies in the details.
