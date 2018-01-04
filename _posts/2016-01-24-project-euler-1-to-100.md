@@ -140,8 +140,24 @@ Lychrel number before.
 n-squared complexity where n = 100, just that if one codes this in C++, one has
 to account for big num. I thought the search space was much bigger initially.
 
+#### <a href="https://projecteuler.net/problem=57">Problem 57</a>
+**Solved on 4th January 2018.** Instead of jumping straight into the problem, I
+decided to force myself to think about it on pen and paper and searching Google
+for the math behind it. Perhaps there's a math trick. I found the wiki page and
+soon realized that because of the PEMDAS rule, it seems like I can't do it in
+the form of a DP or some memoization technique. For example, the 1000th
+expansion is not based on the 999th. Having established that, I concluded that
+brute force is the way out and proceeded to code it. The first mistake I made
+was in using recursion. The default recursion depth exceeded. I changed all
+recursion to for loops. The second mistake I made was to do a gcd at every
+expansion. This is the classic speed-memory trade off. Since I was using Python
+and I don't have to deal with BigNum, there wasn't a need to do this and I could
+simply accumulate all the huge numbers and do a GCD at the end. I'm starting to
+think that I should actually code this in C to tackle this problem head on. 
+
 #### <a href="https://projecteuler.net/problem=67">Problem 67</a>
-**Solved on 24th January 2016.** Identical to problem 18. Only difference is that it has a lot more rows. Therefore, you definitely can't brute force this. 
+**Solved on 24th January 2016.** Identical to problem 18. Only difference is
+that it has a lot more rows. Therefore, you definitely can't brute force this. 
 
 #### <a href="https://projecteuler.net/problem=81">Problem 81</a>
 **Solved on 26th March 2017.** Wanted to solve a dynamic programming problem so
