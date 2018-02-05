@@ -1,7 +1,7 @@
 ---
 title: First Post of 2018
 layout: post
-tags: books
+tags:
 local: 2018-01-03-first-post
 ---
 
