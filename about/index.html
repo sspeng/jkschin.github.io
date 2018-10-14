@@ -1,29 +1,46 @@
 ---
-title: About
+title: Home
 layout: default
 ---
-<p><a href="https://www.linkedin.com/in/jkschin">LinkedIn</a> | <a
-    href="http://stackoverflow.com/users/5703903/jkschin">Stack Overflow</a> |
-<a href="http://github.com/jkschin">GitHub</a></p>
-
-<p>
-I currently work at Palantir Technologies. I am a software engineer who has
-experience with large scale data integration and analysis and machine learning.
-I solve problems by first breaking it down, understanding the principles behind
-the problem, and then prioritizing the most important sub-problems to solve.
-When writing the solution, I do not believe in quick fixes and gravitate towards
-writing clean maintainable code. I am interested in Artificial Intelligence and
-Software Engineering. I do more HackerRank nowadays (Project Euler on HackerRank
-too), and occassionally read the latest research paper in top conferences.
-</p>
-
-<p>Cool stuff that I did:
-	<ul>
-        <li><a href="/2016/01/10/project-euler-541">51st person in the world to
-                solve Project Euler Question 541.</a></li>
-        <li><a href="/mountsutd">Naming a 6056m high unnamed and unclimbed
-                mountain.</a></li>
-        <li><a href="/ev">Built the fastest go-kart with a USD 500
-                budget.</a></li>
-	</ul>
-</p>
+<p style="background-color: #e5e5e5;">Don't take the post dates on this
+page as a measure of how often I blog. I update my Books page and Euler page
+quite often.</p>
+{% for post in paginator.posts %}
+	{% include firstimage.script %}
+	{% if presence %}
+		<div class="blocks">
+			<div class="block-images">
+				<div class="block-dummy"></div>
+				<div class="block-element">
+					<a href="{{ post.url }}"><img {{ imageMarkup }}></a>
+				</div>
+			</div>
+			<div class="block-content">
+				<a href="{{ post.url }}"><h4>{{ post.title }}</h4></a>
+				<i>Posted: {{ post.date | date: "%-d %B %Y" }}</i>
+				<p>{{ post.content | strip_html | truncatewords: 50 }}</p>
+			</div>
+		</div>
+	{% else %}
+		<div class="blocks" style="height:auto;">
+			<div class="block-content" style="padding-left:0px;">
+				<a href="{{ post.url }}"><h4>{{ post.title }}</h4></a>
+				<i>Posted: {{ post.date | date: "%-d %B %Y" }}</i>
+				<p>{{ post.content | strip_html | truncatewords: 50 }}</p>
+			</div>
+		</div>
+	{% endif %}
+{% endfor %}
+{% if paginator.total_pages > 1 %}
+<div class="pagination">
+  {% for page in (1..paginator.total_pages) %}
+    {% if page == paginator.page %}
+      <em>{{ page }}</em>
+    {% elsif page == 1 %}
+      <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+    {% else %}
+      <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+    {% endif %}
+  {% endfor %}
+</div>
+{% endif %}
