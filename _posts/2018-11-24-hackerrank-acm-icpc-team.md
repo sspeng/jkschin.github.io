@@ -1,5 +1,5 @@
 ---
-title: HackerRank: ACM ICPC Team
+title: ! "HackerRank: ACM ICPC Team"
 layout: post
 tags: algorithms
 local: 2018-11-24-hackerrank-acm-icpc-team
