@@ -5,8 +5,6 @@ tags: algorithms
 local: 2018-11-24-hackerrank-acm-icpc-team
 ---
 
-Question: https://www.hackerrank.com/challenges/acm-icpc-team/problem
-
 Starting to do HackerRank again. The objective is to do a small problem each
 day at least, with the option of spilling over to the next day if it is too
 hard.

@@ -1,7 +1,7 @@
 ---
 title: Google Code Jam Round H
 layout: post
-tags:
+tags: algorithms
 local: 2018-11-18-codejam-round-h
 ---
 
